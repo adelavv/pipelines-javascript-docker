@@ -8,10 +8,8 @@ trigger:
 
         pool:
           vmImage: 'ubuntu-1604' # set to windows-latest or another Windows vmImage for Windows builds
-
         variables:
           imageName: 'pipelines-javascript-docker'
-
         steps:
                 - task: Docker@2
           displayName: Build an image
