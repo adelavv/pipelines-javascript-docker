@@ -13,7 +13,7 @@ trigger:
           imageName: 'pipelines-javascript-docker'
 
         steps:
-        - task: Docker@2
+                - task: Docker@2
           displayName: Build an image
           inputs:
             repository: $(imageName)
